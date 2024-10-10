@@ -1,0 +1,84 @@
+﻿@model EF_CodeFirst.Models.Product
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Edit</h2>
+<form action="@Url.Action("Edit", "Products")" method="post">   
+    <input type="hidden" name="ProductID" value="@Model.ProductID" />
+    <div class="row">
+        <div class="col-md-6">
+            <label for="ProductName">Product Name</label>
+            <input type="text"
+                   name="ProductName"
+                   class="form-control"
+                   id="ProductName"
+                   placeholder="Product Name"
+                   value="@Model.ProductName" />
+        </div>
+        <div class="col-md-6">
+            <label for="Price">Price</label>
+            <input type="number"
+                   name="Price"
+                   class="form-control"
+                   id="Price"
+                   placeholder="Price"
+                   value="@Model.Price" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="ProductName">Date of Purchase</label>
+            <input type="date"
+                   name="DateOfPurchase"
+                   class="form-control"
+                   id="DateOfPurchase"
+                   placeholder="Date Of Purchase "
+                   value="@Model.DateOfPurchase.Value.ToString("yyyy-MM-dd")" />
+        </div>
+        <div class="col-md-6">
+            <label for="AvailabilityStatus">AvailabilityStatus</label>
+
+            <select class="form-control" id="AvailabilityStatus" name="AvailabilityStatus">
+                @if (Model.AvailabilityStatus == "in stock")
+                {
+                    <option value="in stock" selected>In</option>
+                    <option value="out of stock">Out</option>
+                }
+                else
+                {
+                    <option value="in stock">In</option>
+                    <option value="out of stock" selected>Out</option>
+                }
+
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="">Category ID</label>
+            @Html.DropDownListFor(row => row.CategoryID,
+           new SelectList(ViewBag.Categories, "CategoryID", "CategoryName"), "please Select..",
+           new { @class = "form-control" })
+        </div>
+        <div class="col-md-6">
+            <label for="Active">Active</label>
+            <select class="form-control" id="active" name="active">
+                <option value="true">True</option>
+                <option value="false">False</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="">Brand ID</label>
+            @Html.DropDownListFor(row => row.BrandID, 
+           new SelectList(ViewBag.Brands,"BrandID","BrandName"), "Please Select...",
+           new {@class="form-control"})
+        </div>
+    </div>
+    <button type="submit" class="btn btn-success">Edit</button>
+    <a href="/products" class="btn btn-danger">back products</a>
+</form>
+

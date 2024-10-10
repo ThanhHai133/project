@@ -1,0 +1,34 @@
+﻿@model List<EF_CodeFirst.Models.Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Product</h2>
+
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Date</th>
+        <th>Avai</th>
+        <th>Category ID</th>
+        <th>Brand ID</th>
+        <th>Active</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>@item.ProductID</td>
+        <td>@item.ProductName</td>
+        <td>@item.Price.Value.ToString("C")</td>
+        <td>@item.DateOfPurchase.Value.ToString("dd/MM/yyyy")</td>
+        <td>@item.AvailabilityStatus</td>
+        <td>@item.CategoryID</td>
+        <td>@item.BrandID</td>
+        <td>@item.Active</td>
+    </tr>
+    }
+</table>
+
