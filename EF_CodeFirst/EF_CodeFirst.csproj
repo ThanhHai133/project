@@ -160,6 +160,10 @@
     <Compile Include="Migrations\202410100445136_AddRequired.Designer.cs">
       <DependentUpon>202410100445136_AddRequired.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202410110340443_MigrationName.cs" />
+    <Compile Include="Migrations\202410110340443_MigrationName.designer.cs">
+      <DependentUpon>202410110340443_MigrationName.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Brand.cs" />
     <Compile Include="Models\Category.cs" />
@@ -223,6 +227,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202410100445136_AddRequired.resx">
       <DependentUpon>202410100445136_AddRequired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202410110340443_MigrationName.resx">
+      <DependentUpon>202410110340443_MigrationName.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

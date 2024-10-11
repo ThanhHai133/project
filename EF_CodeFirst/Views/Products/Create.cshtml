@@ -17,17 +17,16 @@
     <div class="col-md-6">
         @Html.LabelFor(row => row.ProductName)
         @Html.TextBoxFor(row => row.ProductName,new { @class="form-control", placeholder = "Product Name" })
+        @Html.ValidationMessageFor(row =>row.ProductName)
     </div>
-    @Html.InputHelp("col-md-6","Price","Price")
-    @*<div class="col-md-6">
-        <label for="Price">Price</label>
-        <input type="number"
-               name="Price"
-               class="form-control"
-               id="Price"
-               placeholder="Price"
-               value="" />
-    </div>*@
+    @*@Html.InputHelp("col-md-6","Price","Price")*@
+<div class="col-md-6">
+    <label for="Price">Price</label>
+    @Html.TextBoxFor(row => row.Price, 
+    new { @class = "form-control", 
+    placeholder = "Price" })
+    @Html.ValidationMessageFor(row => row.Price)
+</div>
 </div>
 <div class="row">
     <div class="col-md-6">
@@ -54,7 +53,7 @@
        new SelectList(ViewBag.Categories,
        "CategoryID","CategoryName"),"Please Select...",
        new {@class= "form-control" })
-
+        @Html.ValidationMessageFor(row => row.CategoryID)
     </div>
     <div class="col-md-6">
         <label for="Active">Active</label>
@@ -62,17 +61,19 @@
             <option value="true">True</option>
             <option value="false">False</option>
         </select>
+      
     </div>
 </div>
 <div class="row">
     <div class="col-md-6">
         <label for="">Brand ID</label>
         @Html.DropDownListFor(row => row.BrandID, 
-       new SelectList(ViewBag.Brands,"BrandID","BrandName"), 
+       new SelectList(ViewBag.Brands,"BrandID","BrandName"),"Please Select...", 
        new {@class = "form-control" })
-    
+        @Html.ValidationMessageFor(row=> row.BrandID)
     </div>
 </div>
+@Html.ValidationSummary()
 <button type="submit" class="btn btn-success">Create</button>
 <a href="/products" class="btn btn-danger">back products</a>
 }

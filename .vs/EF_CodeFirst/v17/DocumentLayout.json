@@ -1,42 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ASP\\EF_CodeFirst\\",
+  "WorkspaceRootPath": "D:\\project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1719CAFD-97C4-47B5-A7B6-13717DDA31AA}|EF_CodeFirst\\EF_CodeFirst.csproj|d:\\asp\\ef_codefirst\\ef_codefirst\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1719CAFD-97C4-47B5-A7B6-13717DDA31AA}|EF_CodeFirst\\EF_CodeFirst.csproj|solutionrelative:ef_codefirst\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1719CAFD-97C4-47B5-A7B6-13717DDA31AA}|EF_CodeFirst\\EF_CodeFirst.csproj|D:\\ASP\\EF_CodeFirst\\ef_codefirst\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1719CAFD-97C4-47B5-A7B6-13717DDA31AA}|EF_CodeFirst\\EF_CodeFirst.csproj|solutionrelative:ef_codefirst\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1719CAFD-97C4-47B5-A7B6-13717DDA31AA}|EF_CodeFirst\\EF_CodeFirst.csproj|d:\\asp\\ef_codefirst\\ef_codefirst\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1719CAFD-97C4-47B5-A7B6-13717DDA31AA}|EF_CodeFirst\\EF_CodeFirst.csproj|d:\\project\\ef_codefirst\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1719CAFD-97C4-47B5-A7B6-13717DDA31AA}|EF_CodeFirst\\EF_CodeFirst.csproj|solutionrelative:ef_codefirst\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1719CAFD-97C4-47B5-A7B6-13717DDA31AA}|EF_CodeFirst\\EF_CodeFirst.csproj|d:\\asp\\ef_codefirst\\ef_codefirst\\migrations\\202410100445136_addrequired.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1719CAFD-97C4-47B5-A7B6-13717DDA31AA}|EF_CodeFirst\\EF_CodeFirst.csproj|solutionrelative:ef_codefirst\\migrations\\202410100445136_addrequired.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1719CAFD-97C4-47B5-A7B6-13717DDA31AA}|EF_CodeFirst\\EF_CodeFirst.csproj|d:\\asp\\ef_codefirst\\ef_codefirst\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1719CAFD-97C4-47B5-A7B6-13717DDA31AA}|EF_CodeFirst\\EF_CodeFirst.csproj|solutionrelative:ef_codefirst\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1719CAFD-97C4-47B5-A7B6-13717DDA31AA}|EF_CodeFirst\\EF_CodeFirst.csproj|d:\\asp\\ef_codefirst\\ef_codefirst\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1719CAFD-97C4-47B5-A7B6-13717DDA31AA}|EF_CodeFirst\\EF_CodeFirst.csproj|solutionrelative:ef_codefirst\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1719CAFD-97C4-47B5-A7B6-13717DDA31AA}|EF_CodeFirst\\EF_CodeFirst.csproj|d:\\asp\\ef_codefirst\\ef_codefirst\\htmlhelper\\inputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1719CAFD-97C4-47B5-A7B6-13717DDA31AA}|EF_CodeFirst\\EF_CodeFirst.csproj|solutionrelative:ef_codefirst\\htmlhelper\\inputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1719CAFD-97C4-47B5-A7B6-13717DDA31AA}|EF_CodeFirst\\EF_CodeFirst.csproj|D:\\ASP\\EF_CodeFirst\\ef_codefirst\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1719CAFD-97C4-47B5-A7B6-13717DDA31AA}|EF_CodeFirst\\EF_CodeFirst.csproj|d:\\project\\ef_codefirst\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1719CAFD-97C4-47B5-A7B6-13717DDA31AA}|EF_CodeFirst\\EF_CodeFirst.csproj|solutionrelative:ef_codefirst\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1719CAFD-97C4-47B5-A7B6-13717DDA31AA}|EF_CodeFirst\\EF_CodeFirst.csproj|D:\\ASP\\EF_CodeFirst\\ef_codefirst\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1719CAFD-97C4-47B5-A7B6-13717DDA31AA}|EF_CodeFirst\\EF_CodeFirst.csproj|solutionrelative:ef_codefirst\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,123 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_LayoutPage1.cshtml",
-              "DocumentMoniker": "D:\\ASP\\EF_CodeFirst\\EF_CodeFirst\\Views\\Shared\\_LayoutPage1.cshtml",
-              "RelativeDocumentMoniker": "EF_CodeFirst\\Views\\Shared\\_LayoutPage1.cshtml",
-              "ToolTip": "D:\\ASP\\EF_CodeFirst\\EF_CodeFirst\\Views\\Shared\\_LayoutPage1.cshtml",
-              "RelativeToolTip": "EF_CodeFirst\\Views\\Shared\\_LayoutPage1.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-05T07:36:25.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\ASP\\EF_CodeFirst\\EF_CodeFirst\\Views\\Products\\Create.cshtml",
-              "RelativeDocumentMoniker": "EF_CodeFirst\\Views\\Products\\Create.cshtml",
-              "ToolTip": "D:\\ASP\\EF_CodeFirst\\EF_CodeFirst\\Views\\Products\\Create.cshtml",
-              "RelativeToolTip": "EF_CodeFirst\\Views\\Products\\Create.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-10T04:20:41.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\ASP\\EF_CodeFirst\\EF_CodeFirst\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "D:\\project\\EF_CodeFirst\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "EF_CodeFirst\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\ASP\\EF_CodeFirst\\EF_CodeFirst\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\project\\EF_CodeFirst\\Controllers\\ProductController.cs",
               "RelativeToolTip": "EF_CodeFirst\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAYwFcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T04:41:40.308Z",
+              "WhenOpened": "2024-10-11T01:12:18.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "202410100445136_AddRequired.cs",
-              "DocumentMoniker": "D:\\ASP\\EF_CodeFirst\\EF_CodeFirst\\Migrations\\202410100445136_AddRequired.cs",
-              "RelativeDocumentMoniker": "EF_CodeFirst\\Migrations\\202410100445136_AddRequired.cs",
-              "ToolTip": "D:\\ASP\\EF_CodeFirst\\EF_CodeFirst\\Migrations\\202410100445136_AddRequired.cs",
-              "RelativeToolTip": "EF_CodeFirst\\Migrations\\202410100445136_AddRequired.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T04:45:19.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\ASP\\EF_CodeFirst\\EF_CodeFirst\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "EF_CodeFirst\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\ASP\\EF_CodeFirst\\EF_CodeFirst\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "EF_CodeFirst\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T04:41:39.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\ASP\\EF_CodeFirst\\EF_CodeFirst\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "EF_CodeFirst\\Models\\Product.cs",
-              "ToolTip": "D:\\ASP\\EF_CodeFirst\\EF_CodeFirst\\Models\\Product.cs",
-              "RelativeToolTip": "EF_CodeFirst\\Models\\Product.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T04:38:08.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "inputHelper.cs",
-              "DocumentMoniker": "D:\\ASP\\EF_CodeFirst\\EF_CodeFirst\\HtmlHelper\\inputHelper.cs",
-              "RelativeDocumentMoniker": "EF_CodeFirst\\HtmlHelper\\inputHelper.cs",
-              "ToolTip": "D:\\ASP\\EF_CodeFirst\\EF_CodeFirst\\HtmlHelper\\inputHelper.cs",
-              "RelativeToolTip": "EF_CodeFirst\\HtmlHelper\\inputHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T03:59:52.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASP\\EF_CodeFirst\\EF_CodeFirst\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "D:\\project\\EF_CodeFirst\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "EF_CodeFirst\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\ASP\\EF_CodeFirst\\EF_CodeFirst\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\project\\EF_CodeFirst\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "EF_CodeFirst\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-05T07:37:20.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\ASP\\EF_CodeFirst\\EF_CodeFirst\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "EF_CodeFirst\\Models\\Category.cs",
-              "ToolTip": "D:\\ASP\\EF_CodeFirst\\EF_CodeFirst\\Models\\Category.cs",
-              "RelativeToolTip": "EF_CodeFirst\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T07:20:02.247Z",
+              "WhenOpened": "2024-10-11T01:07:11.891Z",
               "EditorCaption": ""
             }
           ]
